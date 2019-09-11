@@ -1,0 +1,70 @@
+.upperCalc {
+    background-color: orange;
+}
+
+.resRow {
+    text-align: right;
+    width: 170px;
+}
+
+#buttons {
+    width: 170px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    color: orangered;
+}
+
+button:hover {
+    background-color: #FABD44;
+    border-radius: 8px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+table,
+tr,
+td {
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 18px;
+}
+
+.lowerCalc {
+    background-color: black;
+}
+
+#res {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    background-color: transparent;
+    text-align: right;
+    border-color: transparent;
+    width: 160px;
+}
+
+#res:focus {
+    outline: none !important;
+}
+
+#resPrev {
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: right;
+    width: 160px;
+}
+
+#resPrev:focus {
+    outline: none !important;
+}
